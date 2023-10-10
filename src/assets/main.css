@@ -1,0 +1,26 @@
+:root {
+  --bg-app: #f2f2f2;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 758px;
+  }
+}
+
+.card {
+  border: none;
+}
+
+#app {
+  min-height: 100vh;
+  background-color: var(--bg-app);
+}
